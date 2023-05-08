@@ -20,7 +20,8 @@ body {
 
 body,
 main,
-input, button {
+input,
+button {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.6rem;
 
@@ -57,21 +58,27 @@ form {
 
 }
 
+input,
+button {
+    border: none;
+    padding: 1.6rem;
+
+}
+
 input {
     background: #DCE2E9;
     border-radius: .4rem 0 0 .4rem;
-    width: 43px;
-    height: 53px;
-    border: none;
+    width: 5rem;
+   
+
 
 }
 
 button {
     background: #7879F1;
-border-radius: 0px 4px 4px 0px;
-width: 82px;
-height: 53px;
-color: white;
-border: none;
-}
+    font-weight: bold;
+    border-radius: 0px 4px 4px 0px;
+    
+    color: white;
 
+}
