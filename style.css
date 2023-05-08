@@ -20,7 +20,7 @@ body {
 
 body,
 main,
-input {
+input, button {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.6rem;
 
@@ -53,7 +53,7 @@ main {
 
 form {
     display: flex;
-    
+    justify-content: center;
 
 }
 
@@ -64,5 +64,14 @@ input {
     height: 53px;
     border: none;
 
+}
+
+button {
+    background: #7879F1;
+border-radius: 0px 4px 4px 0px;
+width: 82px;
+height: 53px;
+color: white;
+border: none;
 }
 
