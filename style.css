@@ -27,6 +27,7 @@ button {
 
 }
 
+/* screen1 */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.4rem;
@@ -38,7 +39,24 @@ p {
     color: hsla(238, 27%, 28%, 0.8);
     margin-bottom: 4.8rem;
 }
+button {
+    background: #7879F1;
+    font-weight: bold;
+    border-radius: 0px 4px 4px 0px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
 
+}
+
+button:hover {
+    background: #484884;
+}
+
+.hide {
+    display: none;
+
+}
 main {
     background: #FFFFFF;
     box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
@@ -74,11 +92,18 @@ input {
 
 }
 
-button {
-    background: #7879F1;
-    font-weight: bold;
-    border-radius: 0px 4px 4px 0px;
-    
-    color: white;
 
+
+/* screen 2 */
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+    border-radius: .4rem;
+    font-weight: 700;
+    
 }
