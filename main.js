@@ -19,7 +19,7 @@ function actionTryClick(event) {
 
 
     }
-
+    inputNumber.value = ""
     xAttempts++
 
 }
@@ -34,5 +34,6 @@ btnTry.addEventListener('click', actionTryClick)
 btnReset.addEventListener('click', function () {
     screen1.classList.remove("hide")
     screen2.classList.add("hide")
+    xAttempts = 1
 
 })
