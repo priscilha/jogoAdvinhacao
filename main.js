@@ -19,6 +19,7 @@ function actionTryClick(event) {
 
 
     }
+    //valor voltar a zerar após o click
     inputNumber.value = ""
     xAttempts++
 
