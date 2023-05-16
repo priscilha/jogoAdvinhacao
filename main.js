@@ -1,7 +1,9 @@
 const randomNumber = Math.round(Math.random()*10)
-let xAttempts
+let xAttempts = 1
 
-function actionClick () {
+
+//função callback
+function actionTryClick (event) {
     event.preventDefault()
 
     const inputNumber = document.querySelector("#inputNumber")
@@ -18,3 +20,14 @@ function actionClick () {
     xAttempts++
 
 }
+
+//Eventos
+
+const btnTry = document.querySelector("#btnTry")
+const btnReset = document.querySelector("#btnReset")
+
+
+btnTry.addEventListener('click', actionTryClick)
+btnReset.addEventListener('click', function(){
+    
+})
